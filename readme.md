@@ -18,7 +18,7 @@ Celui-ci permet de créer des devis, les associer à des prospects/clients et le
 
 * Administration avec accès protégé et redirection vers l'écran de connexion le cas échéant *(guest users)*
 * Utilisation d'Eloquent avec relations
-* Devis filtrables par client *(en cliquant sur son nom)*
+* Devis filtrables par client *(en cliquant sur son nom, uniquement côté Admin)*
 * Mutators *(formatage de date)*
 * Envoi de message via Mailgun. Pour l'exemple, le message de confirmation **et** de notification sont envoyés à l'adresse saisie dans le formulaire de contact.
 * Events et Listeners pour l'envoi de message
